@@ -1,0 +1,79 @@
+/* =============================
+   JikoPOS Menu Stylesheet
+   File: styles.css
+   ============================= */
+
+/* Body */
+body {
+  background-color: #fafafa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Page Title */
+h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #b23a48;
+}
+
+/* Category Headings */
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-left: 6px solid #b23a48;
+  padding-left: 10px;
+  color: #444;
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+/* Card Images */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Card Titles */
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #222;
+}
+
+/* Card Text */
+.card-text {
+  font-size: 0.95rem;
+  color: #666 !important;
+}
+
+/* Price Label */
+.card-body p.fw-bold {
+  font-size: 1.1rem;
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.btn-success {
+  background-color: #b23a48;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 0.9rem;
+}
+
+.btn-success:hover {
+  background-color: #922d39;
+}
