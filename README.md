@@ -348,11 +348,6 @@ git push origin feature-name
 
 ---
 
-# 📜 License
-
-This project is licensed under the MIT License.
-
----
 
 <div align="center">
 
